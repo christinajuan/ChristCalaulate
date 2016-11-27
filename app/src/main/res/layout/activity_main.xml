@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:text="7"
             android:layout_weight="1"
+            android:onClick="setcolor"
             />
         <Button
             android:id="@+id/b8"
@@ -37,7 +38,7 @@
             android:text="9"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/bx"
+            android:id="@+id/b10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="x"
@@ -66,8 +67,9 @@
             android:layout_height="wrap_content"
             android:text="6"
             android:layout_weight="1"/>
+
         <Button
-            android:id="@+id/b-"
+            android:id="@+id/b11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="-"
@@ -97,7 +99,7 @@
             android:text="3"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/bp"
+            android:id="@+id/b12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+"
@@ -115,13 +117,13 @@
             android:text="0"
             android:layout_weight="2"/>
         <Button
-            android:id="@+id/bd"
+            android:id="@+id/b14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="."
             android:layout_weight="3"/>
         <Button
-            android:id="@+id/be"
+            android:id="@+id/b13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="="
